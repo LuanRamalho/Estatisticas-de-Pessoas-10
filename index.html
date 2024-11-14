@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Preferência de Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Estatísticas de Preferência de Jogo</h1>
+
+        <div class="frame-inputs">
+            <div class="input-field">
+                <label for="computador">Computador:</label>
+                <input type="number" id="computador" />
+            </div>
+            <div class="input-field">
+                <label for="notebook">Notebook:</label>
+                <input type="number" id="notebook" />
+            </div>
+            <div class="input-field">
+                <label for="smartphone">Smartphone:</label>
+                <input type="number" id="smartphone" />
+            </div>
+            <div class="input-field">
+                <label for="tablet">Tablet:</label>
+                <input type="number" id="tablet" />
+            </div>
+            <div class="input-field">
+                <label for="console">Console:</label>
+                <input type="number" id="console" />
+            </div>
+            <button class="calcular-button" onclick="calcularEstatisticas()">Calcular</button>
+        </div>
+
+        <div id="total" class="total">Total de pessoas pesquisadas: 0</div>
+
+        <div id="barras-frame" class="barras-frame"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

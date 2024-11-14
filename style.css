@@ -1,0 +1,120 @@
+/* Estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d79ff;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* Container geral */
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.titulo {
+    background-color: #ff9999;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+/* Frame para os inputs */
+.frame-inputs {
+    background-color: #ffcc99;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilo para os campos de input */
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-field input {
+    width: 80px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #fff2cc;
+}
+
+/* Botão de calcular */
+.calcular-button {
+    background-color: #66ff66;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.calcular-button:hover {
+    background-color: #4dff4d;
+}
+
+/* Total de pessoas */
+.total {
+    background-color: #ffebcc;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Barras de progresso */
+.barras-frame {
+    margin-top: 20px;
+}
+
+.barra-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.barra-item label {
+    width: 120px;
+    font-weight: bold;
+}
+
+.barra {
+    flex: 1;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.barra .progresso {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.barra .porcentagem {
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+}
